@@ -1,0 +1,14 @@
+<div class='{{class}} checkbox'>
+    {{#uid label placeholder name type options checked }}
+        <div class='checkbox__wrap'>
+            <label for='{{id}}' class='checkbox__label'>
+                {{label}}
+            </label>
+            <input type='checkbox' name="{{name}}"  class='checkbox__control' id='{{id}}'
+             {{#if required}} required {{/if}}
+             {{#if checked}} checked {{/if}}
+             >
+            </input>
+        </div>
+    {{/uid}}
+</div>

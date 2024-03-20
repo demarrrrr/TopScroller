@@ -1,0 +1,14 @@
+<div class='{{class}} radio'>
+    {{#uid label placeholder name type options checked }}
+        <div class='radio__wrap'>
+            <label for='{{id}}' class='radio__label'>
+                {{label}}
+            </label>
+            <input type='radio' name="{{name}}" class='radio__control' id='{{id}}' 
+            {{#if required}} required {{/if}}
+            {{#if checked}} checked {{/if}}
+            >
+            </input>
+        </div>
+    {{/uid}}
+</div>
