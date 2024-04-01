@@ -13,7 +13,7 @@
         "@html-eslint/eslint-plugin": "^0.23.1",
         "@html-eslint/parser": "^0.23.0",
         "@principalstudio/html-webpack-inject-preload": "^1.2.7",
-        "@types/node": "^20.11.20",
+        "@types/node": "^20.12.2",
         "@types/webpack-env": "^1.18.4",
         "@typescript-eslint/eslint-plugin": "^7.0.2",
         "@typescript-eslint/parser": "^7.0.2",
